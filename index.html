@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sitcon</title>
+</head>
+
+<body>
+  <section class="cabecalho">
+    <div>
+      <button type="button" name="myButton">Solicitação Clínicas</button>
+      <button type="button" name="myButton">Listagem de Solicitação</button>
+    </div>
+  </section>
+  <section class="formulario">
+    <button class="voltar" type="button" name="myButton">Voltar</button>
+    <div class="form">
+      <p class="nome">
+        <label>Nome do Paciente</label>
+      </p>
+      <input class="primenome" type="text" name="nome" required>
+
+      <p class="data">
+        <label>Data de nascimento</label>
+      </p>
+      <input class="primedata" type="text" name="data">
+      <p class="cpf">
+        <label>CPF</label>
+      </p>
+      <input class="primecpf" type="text" name="cpf">
+      <div class="alert"> </div>
+      <p class="alertext"><strong>Atenção!</strong> Os Campos com * devem ser preenchidos obrigatóriamente</p>
+
+      <p class="prof">
+        <label>Profissional*</label>
+      </p>
+      <input class="primeprof" type="text" name="profissional">
+
+      <label class="tipo" for="ciudad">Tipo de solicitação*</label>
+      <select class="form-control" id="ciudad">
+        <option class="selecione" value="selecione"></option>
+        <option value="exames">Exames Laboração</option>
+        <option value="consulta">Consulta</option>
+      </select>
+      <label class="procedimento" for="ciudad">Procedimentos*</label>
+      <select class="proce" id="ciudad">
+        <option class="selecione" value="selecione"></option>
+        <option value="exames">Exames Laboração</option>
+        <option value="consulta">Consulta</option>
+      </select>
+    </div>
+
+  </section>
+
+</body>
+
+</html>

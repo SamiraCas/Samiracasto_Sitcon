@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+}
+
+.cabecalho {
+  background: #00629b;
+  padding: 20px;
+}
+button {
+  color: #ffffff;
+  background-color: #00629b;
+  font-size: 19px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.formulario {
+  background-color: var(--neutra-02, #d9dbdb);
+}
+
+.voltar {
+  color: #00629b;
+  margin: 1% 0% 0% 5%;
+  background-color: #d9dbdb;
+  border: 1px solid #00629b;
+  border-radius: 10px;
+  padding: 10px 12.5px;
+  cursor: pointer;
+  margin: 1% 0% 2% 8%;
+}
+.form {
+  margin: 0% 0% 2% 8%;
+}
+.primenome,
+.primedata,
+.primecpf,
+.primeprof,
+.form-control,
+.proce {
+  display: flex;
+  background-color: #edf8fc;
+  font-size: 19px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+.nome,
+.data,
+.cpf,
+.prof,
+.tipo,
+.procedimento {
+  font-family: "Anek Gujarati", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.primenome {
+  padding: 10px 120px;
+  color: #333333;
+}
+
+.data {
+  margin: -3.7% 0% 0% 30%;
+}
+.primedata {
+  margin: 0% 0% 0% 30%;
+  padding: 10px 120px;
+  color: #333333;
+}
+.cpf {
+  margin: -3.7% 0% 0% 60%;
+}
+.alert {
+  margin: 1% 0% 1% 0%;
+  width: 1520px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #ffd6b0;
+}
+
+.alertext {
+  font-family: "Anek Gujarati", sans-serif;
+  margin: -3% 0% 2% 30%;
+}
+
+.primecpf {
+  margin: 0% 0% 3% 60%;
+  padding: 10px 120px;
+  color: #333333;
+}
+.primeprof {
+  padding: 10px 640px;
+}
+.tipo {
+  margin: 0%;
+  color: #333333;
+}
+.form-control {
+  margin: 0%;
+  padding: 10px 280px;
+}
+
+.procedimento {
+  margin: -12% 1% 9% 43.7%;
+  padding: 10px 120px;
+  color: #333333;
+}
+.proce {
+  margin: 0% 10% 0% 50%;
+  padding: 10px 280px;
+}
