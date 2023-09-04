@@ -11,8 +11,8 @@
 <body>
   <section class="cabecalho">
     <div>
-      <button type="button" name="myButton">Solicitação Clínicas</button>
-      <button type="button" name="myButton">Listagem de Solicitação</button>
+      <button class="clinica" type="button" name="myButton">Solicitação Clínicas</button>
+      <button class="listagem" type="button" name="myButton">Listagem de Solicitação</button>
     </div>
   </section>
   <section class="formulario">
@@ -38,22 +38,39 @@
         <label>Profissional*</label>
       </p>
       <input class="primeprof" type="text" name="profissional">
-
-      <label class="tipo" for="ciudad">Tipo de solicitação*</label>
+      <p class="tipo">
+        <label for="ciudad">Tipo de solicitação*</label>
+      </p>
       <select class="form-control" id="ciudad">
         <option class="selecione" value="selecione"></option>
         <option value="exames">Exames Laboração</option>
         <option value="consulta">Consulta</option>
       </select>
-      <label class="procedimento" for="ciudad">Procedimentos*</label>
+      <p class="procedimento">
+        <label for="ciudad">Procedimentos*</label>
+      </p>
       <select class="proce" id="ciudad">
         <option class="selecione" value="selecione"></option>
         <option value="exames">Exames Laboração</option>
         <option value="consulta">Consulta</option>
       </select>
+      <p class="ano">
+        <label> Data*</label>
+      </p>
+      <input class="dia" type="date" name="date">
+
+      <P class="hora">
+        <label>Hora*</label>
+      </P>
+      <input class="hr" type="time" name="hora">
+      <button class="salvar" type="button" name="myButton">Salvar </button>
     </div>
+    <footer>
+      <h1>Samira Castro SITCON</h1>
+    </footer>
 
   </section>
+
 
 </body>
 

@@ -4,12 +4,12 @@
 
 .cabecalho {
   background: #00629b;
-  padding: 20px;
+  padding: 15px;
 }
 button {
   color: #ffffff;
   background-color: #00629b;
-  font-size: 19px;
+  font-size: 13px;
   border: 1px solid #ffffff;
   border-radius: 10px;
   padding: 10px 25px;
@@ -38,9 +38,11 @@ button {
 .primecpf,
 .primeprof,
 .form-control,
-.proce {
+.proce,
+.dia,
+.hr {
   display: flex;
-  background-color: #edf8fc;
+  background-color: #ffffff;
   font-size: 19px;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -50,7 +52,9 @@ button {
 .cpf,
 .prof,
 .tipo,
-.procedimento {
+.procedimento,
+.ano,
+.hora {
   font-family: "Anek Gujarati", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -59,7 +63,7 @@ button {
 }
 .primenome {
   padding: 10px 120px;
-  color: #333333;
+  background-color: #edf8fc;
 }
 
 .data {
@@ -68,7 +72,7 @@ button {
 .primedata {
   margin: 0% 0% 0% 30%;
   padding: 10px 120px;
-  color: #333333;
+  background-color: #edf8fc;
 }
 .cpf {
   margin: -3.7% 0% 0% 60%;
@@ -90,26 +94,68 @@ button {
 .primecpf {
   margin: 0% 0% 3% 60%;
   padding: 10px 120px;
-  color: #333333;
+  background-color: #edf8fc;
+}
+
+.prof {
+  margin: 3% 0% 0% 0%;
 }
 .primeprof {
   padding: 10px 640px;
+  margin: 0.2% 0% 0% 0%;
 }
 .tipo {
-  margin: 0%;
+  margin: 2% 0% -2% 0%;
   color: #333333;
 }
 .form-control {
-  margin: 0%;
+  margin: 2% 0% 0% 0%;
   padding: 10px 280px;
 }
 
 .procedimento {
-  margin: -12% 1% 9% 43.7%;
-  padding: 10px 120px;
+  margin: -3.7% 0% 0% 45%;
   color: #333333;
 }
 .proce {
-  margin: 0% 10% 0% 50%;
+  margin: 0% 0% 0% 45%;
   padding: 10px 280px;
+}
+
+.ano {
+  margin: 1.5% 0% 0% 0%;
+}
+
+.dia {
+  padding: 10px 295px;
+}
+
+.hora {
+  margin: -3.7% 0% 0% 45%;
+}
+
+.hr {
+  padding: 10px 325px;
+  margin: 0% 0% 0% 45%;
+}
+
+.salvar {
+  padding: 12px 50px;
+  margin: 2% 0% 2% 79%;
+}
+
+.clinica {
+  margin: 1% 0% 1% 68%;
+}
+.listagem {
+  margin: 1% 0% 1% 1%;
+}
+footer {
+  background-color: #edf8fc;
+  padding: 70px;
+  font-family: "Anek Gujarati", sans-serif;
+  color: #00629b;
+}
+h1 {
+  margin: 0% 0% 0% 40%;
 }
