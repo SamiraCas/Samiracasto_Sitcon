@@ -1,9 +1,7 @@
 # Samiracasto_Sitcon
 
-<p align = "center"><ahref="#"><img src="/Samiracasto_Sitcon/Screenshot_70.png" alt="Logo Sitcon" width="600"></a></p>
- 
- # Descrição
- 
+# Descrição
+
  <p>Teste processo seletivo para Sitcon tecnologia da informação para a vaga de Desenvolvedor Front-End              
   </p>
  <strong> Linguaguens ultilizadas :</strong> 
