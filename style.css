@@ -6,6 +6,64 @@
   background: #00629b;
   padding: 15px;
 }
+.nomes {
+  background: #00629b;
+  padding: 4px;
+  width: 1300px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Anek Gujarati", sans-serif;
+  margin: 2% 0% 0% 9%;
+}
+.paci {
+  margin: 1% 0% 0% 13%;
+}
+.nasc {
+  margin: -1.7% 0% 0% 36%;
+}
+
+.cp {
+  margin: -1.7% 0% 0% 62%;
+}
+
+.acoes {
+  margin: -1.7% 0% 1% 85%;
+}
+
+.lista {
+  font-family: "Anek Gujarati", sans-serif;
+}
+.pnome {
+  margin: 1% 0% 0% 17%;
+}
+.pdata {
+  margin: -1% 0% 0% 38%;
+}
+.pcpf {
+  margin: -1% 0% 0% 56%;
+}
+.prosseguir {
+  border-radius: 12px;
+  background: var(--Laranja01, #ff8200);
+  box-shadow: 2px 3px 1px 0px rgba(0, 0, 0, 0.05);
+  margin: -6% 0% 0% 83%;
+}
+
+.branco {
+  background-color: #fafafa;
+  padding: 4px;
+  width: 1300px;
+  margin: 0% 0% 0% 9%;
+}
+.azul {
+  background-color: #e7f4f9;
+  padding: 1px;
+  width: 1300px;
+  margin: 0% 0% 0% 9%;
+}
+
 button {
   color: #ffffff;
   background-color: #00629b;
@@ -158,6 +216,25 @@ footer {
 }
 h1 {
   margin: 0% 0% 0% 40%;
+}
+
+#divBusca {
+  background-color: #ffffff;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 300px;
+  margin: 1% 0% 0% 9%;
+}
+
+#txtBusca {
+  float: right;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 13px;
+  border: none;
+  height: 32px;
+  width: 260px;
 }
 
 @media (max-width: 1680px) {
